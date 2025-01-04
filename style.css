@@ -21,6 +21,8 @@ body {
 
 .stats-container {
     display: flex;
+    cursor: pointer;
+    align-items: baseline;
 }
 
 .stats-card {
@@ -73,3 +75,52 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a8b0bc;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  .nav-link a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Cabin';
+  }
+  
+  .nav-link a:hover {
+    background-color: #5b6f8d;
+    transition: 1s;
+  }
+
+  nav {
+    padding: 0;
+    width: 100%;
+  }
+
+  input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    font-family: 'Cabin';
+  }
+
+  #search-btn{
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    font-family: 'Cabin';
+  }
